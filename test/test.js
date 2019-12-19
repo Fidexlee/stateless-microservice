@@ -27,8 +27,8 @@ describe('HackerBay Stateless Microservice', () => {
         .send({ username: 'someone', password: '' })
         .end((err, res) => {
           expect(res.statusCode).to.equal(400)
-          done()
         })
+      done()
     })
 
     it('it should accept a username/password and return a signed JWT', (done) => {
