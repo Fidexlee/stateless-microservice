@@ -122,8 +122,8 @@ All logs are saved in ```hackerbay.log``` in the application's root.
  * [Mocha](https://mochajs.org/) - For testing
 
 
-## Known issues
+## Results
 
- 1. Test for thumbnail generation with [Mocha](https://mochajs.org/) _'it should accept a public image url and return a resized image'_ returns a promise which is currently not being handled properly...
+ 1. Test: All tests specified in test.js with [Mocha](https://mochajs.org/) are running well (use: npm test)
  
  2. Istanbul_ coverage is working using nyc at https://istanbul.js.org/ to generate code test coverage reports.
